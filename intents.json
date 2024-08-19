@@ -1,0 +1,1082 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "hey",
+      "whatsup"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?",
+      "Hello, I hope today is full of happiness.",
+      "Hello, how are you doing?",
+      "Hi, Is there anything special you want to do today?",
+      "Hi, What can Friendlybot do for you?",
+      "Hello, there's something you want to ask.",
+      "Hi there!",
+      "hey",
+      "Hey! How can I help you today?",
+      "Good day! What can I do for you?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "See you later!",
+      "Have a great day!", 
+      "Take care!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "College student",
+      "I was Created by Ryan",
+      "President University Student"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Friendlybot.",
+      "I'm Friendlybot",
+      "I am a Chatbot.",
+      "I am your helper",
+      "I'm Friendlybot, your virtual assistant!", 
+      "You can call me Friendlybot!", 
+      "I'm Friendlybot, here to help you!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-5pm Monday-Friday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact me at whatsapp: +62 897-3351-936",
+      "You can contact me at email: ryanruland.rr@gmail.com",
+      "You can contact me at line: ryanruland.rr"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering"
+   ],
+   "responses": [
+      "Our university in Computer Science offers Information Technology, Information System, Visual communication design, and Interior Design."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "For Fee detail visit <a target=\"_blank\" href=\"https://admission.president.ac.id/\"> Adimission President </a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "For event detail visit <a target=\"_blank\" href=\"https://admission.president.ac.id/pg/91-events\"> Event </a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "To know more about document required visit <a target=\"_blank\" href=\"https://admission.president.ac.id/\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "My College has total 3 Building (2 Building have 4 floors and 1 Building have 2 Floors) "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"https://admission.president.ac.id/filedata/public/publicfile/9-%20Course%20IT.pdf\"> Sylabus </a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 8am to 9pm"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "To know about placement visit <a target=\"_blank\" href=\"https://www.google.com/maps/place/President+University+-+Kampus,+Kuliah+di+Cikarang/@-6.2850003,107.1679714,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6984caf54df305:0xb7156354ad963e4d!8m2!3d-6.2850003!4d107.1705463!16s%2Fm%2F02pmz48?entry=ttu\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "time",
+   "patterns": [
+      "What's the time?", 
+      "Tell me the time", 
+      "Current time", 
+      "What time is it?"
+   ],
+   "responses": [
+      "I'm not able to tell the time right now, but you can check a clock or your device for the current time.", 
+      "Please check the time on your device.", 
+      "I'm not connected to a time service. Please use a clock or your device to find the current time."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "weather",
+   "patterns": [
+      "What's the weather like?", 
+      "Tell me the weather", 
+      "Weather report", 
+      "Current weather"
+   ],
+   "responses": [
+      "I'm not connected to a weather service right now, but you can check a weather app for the latest update!", 
+      "Please check your local weather service for the current conditions.", 
+      "I can't provide weather updates at the moment. Please use a weather app or website."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "Friendlybot",
+   "patterns": [
+      "How are you, Friendlybot?",
+      "How are you Friendlybot?",
+      "Friendlybot are you okay?",
+      "Friendlybot is good, isn't it?"
+   ],
+   "responses": [
+      "Hello! Thank you for asking. Friendlybot is always kind and ready to listen to your exciting stories! How about you?",
+      "Hi! Friendlybot here is fine, always ready to be your friend to confide in. Is there anything Friendlybot can help you with?",
+      "Friendlybot is fine! Always there to listen to your stories and complaints. Is there anything you want to tell?",
+      "Hello! Friendlybot is good, thank you. Always ready to be a loyal listener for you. How about you?",
+      "Hi! Friendlybot news is good, always ready to listen and help. Is there anything you want to tell or ask?",
+      "Friendlybot here is in good condition! Always ready to listen to funny stories or just have a casual chat. How about you?",
+      "Hello! Thank you for asking. Friendlybot is always ready to be your conversation partner. How are you today?",
+      "Hi! Friendlybot's news is good, always ready to listen to your stories or complaints. How about you?",
+      "Friendlybot here is fine! Always ready to listen and help. Is there anything Friendlybot can help you with?",
+      "Hello! Nice Friendlybot, thank you. Always ready to be a friendly friend to talk to. How about you?"
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "Default",
+   "patterns": [
+      "Who are you",
+      "Who is Friendlybot",
+      "Who are you",
+      "What is Friendlybot",
+      "Friendlybot"
+   ],
+   "responses": [
+      "Hey you! I'm Friendlybot, which means Confide Bot. So, if anyone wants to vent, Friendlybot is ready to listen!",
+      "Hi there! Friendlybot here, a bot that can be a friend to share your funny stories with!",
+      "How are you? I'm Friendlybot, a friendly bot who is always ready to listen to your story!",
+      "Hello! I'm Friendlybot, a friend who is always there for you. What do you want to tell me today?",
+      "Hi, I'm Friendlybot! Ready to listen to fun stories or just have a casual chat.",
+      "Hello! Friendlybot here, a friend to confide in who is always ready to be there for you.",
+      "Hi! I'm Friendlybot, who will always faithfully listen and accompany you. You can talk or ask anything!",
+      "Hello! I'm Friendlybot, a confiding friend who always has ears to listen. Is there anything Friendlybot can help you with today?"
+   ]
+},
+{
+   "tag": "General_Response_1",
+   "patterns": [
+      "I'm fine",
+      "Very good",
+      "Fine",
+      "I feel good today",
+      "I feel very good today",
+      "I feel great",
+      "I feel happy",
+      "I feel so happy",
+      "I feel happy",
+      "I feel very happy",
+      "I feel so happy",
+      "Today is a great day",
+      "I feel very grateful",
+      "I feel lucky",
+      "I feel very happy",
+      "Everything went well",
+      "I feel hopeful",
+      "I am very grateful for this life",
+      "I feel very positive"
+   ],
+   "responses": [
+      "That's so good to hear! What makes you feel good?",
+      "Friendlybot That's great to hear! What makes you feel that way?",
+      "Great! What makes your day special?",
+      "Very good! Is there anything else besides that?",
+      "Amazing! Tell Friendlybot more about what makes you feel amazing.",
+      "Friendlybot That's great to hear! What makes you feel good?",
+      "Happy! What makes you happy today? Friendlybot wants to hear it ^_^",
+      "Great! Tell Friendlybot more about what makes you feel really happy.",
+      "Everything went well? Great! Is there anything you want to tell me?",
+      "Hopeful? Share more about your hopes for the future.",
+      "So grateful? What makes you feel so grateful?",
+      "Very positive? Share more about your positive outlook on life."
+   ]
+   },
+   {
+   "tag": "General_Response_2",
+   "patterns": [
+      "I'm not very good",
+      "Not good",
+      "Not too good",
+      "I feel normal today",
+      "I feel pretty good",
+      "I feel less happy",
+      "I don't feel very happy",
+      "I feel less happy",
+      "I don't feel very happy"
+   ],
+   "responses": [
+      "Oh, I see. Is there anything Friendlybot can help or hear?",
+      "Friendlybot understands. Feel free to share if you have something to say.",
+      "Hmm, is there something that makes you feel that way? Tell Friendlybot if you want.",
+      "Not so good? Is there anything that could make your day better?",
+      "Friendlybot understands that not every day is perfect. How can Friendlybot help?",
+      "Not happy? Friendlybot is here if you need someone to talk to.",
+      "What makes you not so happy? Friendlybot is ready to listen.",
+      "If you're feeling unhappy, maybe there's something you'd like to discuss?"
+   ]
+   },
+   {
+   "tag": "General_Response_3",
+   "patterns": [
+       "I'm very upset",
+       "I feel angry",
+       "Do not accept",
+       "I'm really angry",
+       "I feel annoyed",
+       "I'm angry",
+       "Not satisfied",
+       "I feel dissatisfied",
+       "I'm furious,",
+       "I'm really furious"
+      ],
+   "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Sometimes emotions can be difficult to handle. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel angry? Friendlybot is ready to listen if you want to talk.",
+       "Very upset? Friendlybot understands that emotions can be very strong. How can Friendlybot help?",
+       "Friendlybot understands that not every moment is fun. What can Friendlybot do to make you better?",
+       "Are you angry? Friendlybot is here to listen. Share your feelings if you want.",
+       "If you feel dissatisfied, maybe there is something you want to say. Friendlybot is ready to listen.",
+       "What are you furious about? If there's something you want to discuss, Friendlybot is here for you.",
+       "Friendlybot understands that anger can come from various situations. If you want to tell a story, Friendlybot is here.",
+       "So furious? Friendlybot is ready to listen and help if you want to talk."
+   ]
+   },
+   {
+   "tag": "General_Response_4",
+   "patterns": [
+       "I feel sad",
+       "I am very disappointed",
+       "My heart is broken",
+       "I feel so alone",
+       "I'm sad",
+       "I am very sad",
+       "I feel lost",
+       "I feel hopeless",
+       "I feel empty",
+       "I feel helpless"
+      ],
+   "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Sometimes feeling sad can be very challenging. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel sad? Friendlybot is ready to listen if you want to talk.",
+       "Very disappointed? Friendlybot understands that disappointment can come from a variety of situations. How can Friendlybot help?",
+       "Friendlybot understands that not every moment is pleasant. What can Friendlybot do to make you feel better?",
+       "Feeling really sad? Friendlybot is here to listen. Share your feelings if you want.",
+       "If you feel lost, maybe there is something you want to say. Friendlybot is ready to listen.",
+       "What makes you feel hopeless? If there's something you want to discuss, Friendlybot is ready to listen.",
+       "Friendlybot understands that feelings of emptiness can come from various situations. If you want to tell a story, Friendlybot is here.",
+       "So helpless? Friendlybot is ready to listen and help if you want to talk."
+   ]
+   },
+   {
+   "tag": "General_Response_5",
+   "patterns": [
+       "I feel hopeless",
+       "I am very frustrated",
+       "I feel hopeless",
+       "I'm confused and don't know what to do",
+       "I feel trapped",
+       "I feel like I can't continue",
+       "Life feels difficult and meaningless",
+       "I feel lost",
+       "There's nothing I can do",
+       "I feel like I'm losing hope"
+      ],
+   "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Sometimes feelings of hopelessness can be very challenging. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel hopeless? Friendlybot is ready to listen if you want to talk.",
+       "Very frustrating? Friendlybot understands that frustration can come from a variety of situations. How can Friendlybot help?",
+       "Friendlybot understands that not every moment is pleasant. What can Friendlybot do to help you get through this feeling?",
+       "Feeling like you can't go on? Friendlybot is here to listen. Share your feelings if you want.",
+       "Life feels difficult and meaningless? Friendlybot is ready to listen and talk to you.",
+       "What makes you feel lost? If there's something you want to discuss, Friendlybot is ready to listen.",
+       "Friendlybot understands that sometimes we feel hopeless. If you want to tell a story, Friendlybot is here.",
+       "So lost in hope? Friendlybot is ready to listen and help if you're willing to talk."
+   ]
+   },
+   {
+      "tag": "General_Response_6",
+      "patterns": [
+       "I feel scared",
+       "I'm very worried",
+       "I feel restless",
+       "I'm scared",
+       "I feel very anxious",
+       "I feel insecure",
+       "I feel threatened",
+       "I feel panicked",
+       "I feel uncertainty",
+       "I feel afraid of the future"
+      ],
+      "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Sometimes fear can be very challenging. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel afraid? Friendlybot is ready to listen if you want to talk.",
+       "Fear? Friendlybot understands that fear can come from a variety of situations. How can Friendlybot help?",
+       "Friendlybot understands that not every moment is pleasant. What can Friendlybot do to help you get through this feeling?",
+       "Feeling insecure? Friendlybot is here to listen. Share your feelings if you want.",
+       "If you feel threatened, maybe there is something you want to say. Friendlybot is ready to listen.",
+       "What's making you panic? If there's something you want to discuss, Friendlybot is ready to listen.",
+       "Friendlybot understands that feelings of uncertainty can come from various situations. If you want to tell a story, Friendlybot is here.",
+       "Afraid of the future? Friendlybot is ready to listen and help if you're willing to talk."
+   ]
+   },
+   {
+      "tag": "General_Response_7",
+      "patterns": [
+       "I feel in love",
+       "I really love",
+       "I feel happy because of love",
+       "I feel so loved",
+       "I feel true love",
+       "I'm in love",
+       "I feel happy because I love",
+       "I feel very affectionate",
+       "I feel appreciated and loved",
+       "I feel deep love"
+      ],
+      "responses": [
+       "That's so beautiful! Tell me more about your feelings of love.",
+       "That's great to hear! What makes you feel in love?",
+       "Love makes life more colorful. Share more about your happy feelings.",
+       "So dearest? That's amazing! Tell me more about your relationship.",
+       "True love? Friendlybot loves to hear about your deep feelings.",
+       "Lovely? Tell me more about your pleasant feelings.",
+       "Happy from loving? Share more about your love experience.",
+       "Very affectionate? Friendlybot is happy to hear that you feel appreciated and loved.",
+       "Deep love? What makes you feel that way? Tell it to Friendlybot if you want.",
+       "Friendlybot loves hearing about your deep feelings of love. Share more if you want."
+   ]
+   },
+   {
+      "tag": "General_Response_8",
+      "patterns": [
+       "I feel disgusted",
+       "I really don't like it",
+       "I feel bad looking at it",
+       "I feel nauseous",
+       "I feel disturbed",
+       "I feel uncomfortable",
+       "I feel horrified",
+       "I don't really like it,",
+       "I feel very unhappy",
+       "I don't like that"
+      ],
+      "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Disgust can be an intense feeling. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel disgusted? Friendlybot is ready to listen if you want to talk.",
+       "Nausea? Friendlybot understands that feelings of disgust can impact your well-being. How can Friendlybot help?",
+       "Friendlybot understands that not everything is to our taste. What can Friendlybot do to help you feel more comfortable?",
+       "Feeling uncomfortable? Friendlybot is here to listen. Share your feelings if you want.",
+       "If you're feeling horrified, maybe there's something you want to say. Friendlybot is ready to listen.",
+       "What makes you feel so disliked? If there's something you want to discuss, Friendlybot is ready to listen.",
+       "Friendlybot understands that feelings of dislike can be very subjective. If you want to tell a story, Friendlybot is here.",
+       "Don't like that? Friendlybot is ready to listen and help if you want to talk."
+   ]
+   },
+   {
+      "tag": "General_Response_9",
+      "patterns": [
+       "I feel amazed",
+       "I am very impressed",
+       "I feel very admiring",
+       "I feel very amazed",
+       "I feel very amazed",
+       "I feel amazed",
+       "I feel incredible awe",
+       "I feel very amazed",
+       "I feel so awesome",
+       "I feel amazed"
+      ],
+      "responses": [
+       "That was so amazing! Tell me more about what amazed you.",
+       "So impressed! What makes you feel so impressed?",
+       "Great awe? Tell me more about your feelings of awe.",
+       "Very amazed? Friendlybot loves to hear about your deep feelings of admiration.",
+       "Amazed? Share more about what amazes you.",
+       "Great admiration? Friendlybot is pleased to hear that you feel such admiration.",
+       "Very amazed? Share more about your feelings of awe.",
+       "Admirable! What makes you feel so admired?",
+       "Very impressive? Tell me more about what makes you feel so amazed.",
+       "How impressed! Friendlybot loves hearing about your awe."
+   ]
+   },
+   {
+      "tag": "Common_Response_10",
+      "patterns": [
+       "I feel confused",
+       "I am very confused",
+       "I feel like I don't understand",
+       "I feel very confused",
+       "I feel very confused",
+       "I feel like I don't know what to do",
+       "I feel incredibly confused,",
+       "I feel very clueless",
+       "I feel very confused",
+       "I feel very confused"
+      ],
+      "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Confusion can be difficult. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel confused? Friendlybot is ready to listen if you want to talk.",
+       "Very confused? Friendlybot understands that confusion can come from a variety of situations. How can Friendlybot help?",
+       "Friendlybot understands that it's not clear all the time. What can Friendlybot do to help you understand?",
+       "Don't know what to do? Friendlybot is here to listen. Share your feelings if you want.",
+       "If you're feeling incredibly confused, maybe there's something you want to say. Friendlybot is ready to listen.",
+       "What makes you feel so clueless? If there's something you want to discuss, Friendlybot is ready to listen.",
+       "Friendlybot understands that feeling confused can be confusing. If you want to tell a story, Friendlybot is here.",
+       "So confused? Friendlybot is ready to listen and help if you want to talk."
+   ]
+   },
+   {
+      "tag": "General_Response_11",
+      "patterns": [
+       "I feel surprised",
+       "I was very surprised",
+       "I feel shocked",
+       "I feel flabbergasted",
+       "I feel disbelief",
+       "I feel surprised",
+       "I feel shocked",
+       "I feel amazed",
+       "I feel enchanted",
+       "I feel so amazed"
+      ],
+      "responses": [
+       "Oh, thank you for sharing your feelings. Is there anything you would like Friendlybot to help or hear?",
+       "Friendlybot understands. Being surprised can be an intense experience. Tell Friendlybot if you have something to say.",
+       "Hmm, what makes you feel surprised? Friendlybot is ready to listen if you want to talk.",
+       "Very surprised? Friendlybot understands that surprise can come from a variety of situations. How can Friendlybot help?",
+       "Friendlybot understands that not every moment is unexpected. What can Friendlybot do to help you explain how you feel?",
+       "Amazing? Friendlybot is here to listen. Share your feelings if you want.",
+       "If you feel surprised, maybe there is something you want to say. Friendlybot is ready to listen.",
+       "What makes you feel amazed? If you have something to discuss, Friendlybot is ready to listen.",
+       "Fascinated? Friendlybot is happy to hear that you feel fascinated.",
+       "So fascinated? Tell us more about your feelings of fascination. Friendlybot is ready to listen."
+   ]
+   },
+   {
+      "tag": "Pattern_Not_Found",
+      "patterns": [
+       "What do you mean?",
+       "I don't understand",
+       "Please explain",
+       "You understand, don't you?"
+      ],
+      "responses": [
+       "Sorry, it looks like Friendlybot doesn't fully understand yet. Sorry, Friendlybot is still learning a lot!",
+       "Hmm, Friendlybot still has a lot to learn. Understandably, it's still a cute version.",
+       "Friendlybot is still a cute version, so maybe there are some things that haven't been digested properly. Sorry, Friendlybot!",
+       "Sorry, Friendlybot is still learning, so I don't really understand it yet. Cendana Citrawan is really trying to update Friendlybot, you know!",
+       "Friendlybot is still an early version and is still plain. Thank you for being patient with Friendlybot!",
+       "It seems like Friendlybot hasn't been able to catch it well. Sorry if I haven't been able to help as well as I hoped.",
+       "Sorry, Friendlybot doesn't really understand yet. Cendana Citrawan is working hard to make Friendlybot smarter!",
+       "Cu-cu-cu-Bot is still in the learning stage, and still needs upgrading. Thank you for understanding!",
+       "Sorry, Friendlybot still needs to update itself so that it understands better. Thank you for your patience.",
+       "Friendlybot is still cute, so it's still really learning. Sorry if it can't be optimal yet."
+   ]
+   },
+   {
+      "tag": "Friendlybot_Request_Comments",
+      "patterns": [
+       "Friendlybot, please leave a comment!",
+       "Friendlybot, I have a suggestion for you",
+       "Give Friendlybot a little review, okay?"
+      ],
+      "responses": [
+       "How are you! Friendlybot wants to know, how was your experience with Friendlybot? Let me know!",
+       "Hello! Friendlybot wants to hear your suggestions and comments. Do you have something to share?",
+       "Hi! Friendlybot is always open to suggestions and input. How can Friendlybot be better?",
+       "Friendlybot wants to know what you like and maybe don't like about interacting with Friendlybot. Tell me!"
+   ]
+   },
+   {
+      "tag": "Friendlybot_Thanking_Comments",
+      "patterns": [
+       "That's all my comments, Friendlybot.",
+       "Already provided input, Friendlybot.",
+       "I have provided the comments, OK?",
+       "I've finished commenting"
+      ],
+      "responses": [
+       "Friendlybot thanks you for your comments! If there is anything more you need to discuss or ask, Friendlybot is ready to help.",
+       "Thank you for giving your appreciation! Friendlybot is happy to be a friend to confide in and help you.",
+       "Thank you very much for your support! Friendlybot always tries to provide the best for you.",
+       "Friendlybot is happy to hear your story! Thank you for entrusting your story and comments to Friendlybot.",
+       "It's a pleasure to be your loyal listener! Don't hesitate to vent or talk again, okay?",
+       "Thank you for your trust! Friendlybot will always be there to listen and help.",
+       "Friendlybot is happy to be your friend! Thank you for your attention and comments."
+   ]
+   },
+   {
+      "tag": "Jokes",
+      "patterns": [
+            "Tell me a joke",
+            "Do you know any jokes",
+            "How about a joke",
+            "Give me a joke",
+            "Make me laugh",
+            "I need cheering up"
+      ],
+      "responses": [
+            "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+            "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+            "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+            "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
+            "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+            "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+            "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+            "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+            "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+            "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+            "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+            "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+            "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+            "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+            "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+            "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+            "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+            "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+            "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+            "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+            "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+            "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+            "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
+            "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
+            "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
+            "An invisible man marries an invisible woman. The kids were nothing to look at either.",
+            "I went to buy some camouflage trousers the other day but I couldn't find any.",
+            "I went to the butcher's the other day to bet him 50 bucks that he couldn't reach the meat off the top shelf. He said, 'No, the steaks are too high.'",
+            "I went to a seafood disco last week and pulled a mussel.",
+            "A man goes into a bar and says, 'Can I have a bottle of less?' 'What's that?', asks the barman, 'Is it the name of a beer?' 'I don't know', replies the man, 'but my doctor says I have to drink it.'",
+            "A man returns from an exotic holiday and is feeling very ill. He goes to see his doctor, and is immediately rushed to the hospital to undergo some tests. The man wakes up after the tests in a private room at the hospital, and the phone by his bed rings. 'This is your doctor. We have the results back from your tests and we have found you have an extremely nasty disease called M.A.D.S. It's a combination of Measles, AIDS, Diphtheria, and Shingles!'  'Oh my gosh', cried the man, 'What are you going to do, doctor?'  'Well we're going to put you on a diet of pizzas, pancakes, and pita bread.' replied the doctor.  'Will that cure me?' asked the man.  The doctor replied, 'Well no, but, it's the only food we can slide under the door.'",
+            "A man strolls into a lingerie shop and asks the assistant: 'Do you have a see-through negligee, size 46-48-52?' The assistant looks bewildered. 'What the heck would you want to see through that for?'!",
+            "Did you hear about the Buddhist who refused the offer of Novocain during his root canal work? He wanted to transcend dental medication.",
+            "Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do. 'I can do anything' says Pete. 'Can you make tea?' asks the foreman. 'Sure, yes', replies Pete. 'I can make a great cup of tea.' 'Can you drive a forklift?' asks the foreman, 'Good grief!' replies Pete. 'How big is the teapot?'",
+            "Stevie Wonder got a cheese grater for his birthday. He said it was the most violent book he'd ever read.",
+            "A man is stopped by an angry neighbour. 'I'd just left the house this morning to collect my newspaper when that evil Doberman of yours went for me!' 'I'm astounded', said the dog's owner. 'I've been feeding that fleabag for seven years and it's never got the paper for me.'",
+            "A man visits his doctor: 'Doc, I think I'm losing it', he says',I'm forever dreaming I wrote Lord Of The Rings.' 'Hmm. One moment', replies the doctor, consulting his medical book. 'Ah yes, now I see... you've been Tolkien in your sleep.'",
+            "A police officer on a motorcycle pulls alongside a man driving around the M25 in an open-topped sports car and flags him down. The policeman solemnly approaches the car. 'Sir, I'm sorry to tell you your wife fell out a mile back', he says. 'Oh, thank goodness', the man replies. 'I thought I was going deaf.'",
+            "Two men walking their dogs pass each other in a graveyard. The first man says to the second, 'Morning.' 'No', says the second man. 'Just walking the dog.'",
+            "A brain went into a bar and said, 'Can I have a pint of lager please, mate?' 'No way', said the barman. 'You're already out of your head.'",
+            "A man walks into a surgery. 'Doctor!' he cries. 'I think I'm shrinking!' 'I'm sorry sir, there are no appointments at the moment', says the physician. 'You'll just have to be a little patient.'",
+            "A grizzly bear walks into a pub and says, 'Can I have a pint of lager..............................................................................................................................and a packet of crisps please.' To which the barman replies, 'Why the big paws?'",
+            "What do you call cheese that isn't yours?  Nacho cheese.",
+            "A man is horribly run over by a mobile library. The van screeches to a halt, the man still screaming in agony with his limbs torn apart. The driver's door opens, a woman steps out, leans down and whispers, 'Ssshhhhh...'",
+            "A woman goes into a US sporting goods store to buy a rifle. 'It's for my husband', she tells the clerk. 'Did he tell you what gauge to get?' asks the clerk. Are you kidding?' she says. 'He doesn't even know that I'm going to shoot him!'",
+            "A couple are dining in a restaurant when the man suddenly slides under the table. A waitress, noticing that the woman is glancing nonchalantly around the room, wanders over to check that there's no funny business going on. 'Excuse me, madam', she smarms, 'but I think your husband has just slid under the table.' 'No he hasn't', the woman replies. 'As a matter of fact, he's just walked in.'",
+            "An old man takes his two grandchildren to see the new Scooby-Doo film. When he returns home, his wife asks if he enjoyed himself. 'Well', he starts, 'if it wasn't for those pesky kids...!'",
+            "The Olympic committee has just announced that Origami is to be introduced in the next Olympic Games. Unfortunately it will only be available on paper view.",
+            "Late one evening, a man is watching television when his phone rings. 'Hello?' he answers. 'Is that 77777?' sounds a desperate voice on other end of the phone. 'Er, yes it is', replies the man puzzled. 'Thank goodness!' cries the caller relieved. 'Can you ring 999 for me? I've got my finger stuck in the number seven.'",
+            "A man strolls into his local grocer's and says, 'Three pounds of potatoes, please.' 'No, no, no', replies the owner, shaking his head, 'it's kilos nowadays, mate...' 'Oh', apologises the man, 'three pounds of kilos, please.'",
+            "God is talking to one of his angels. He says, 'Boy, I just created a 24-hour period of alternating light and darkness on Earth.' 'What are you going to do now?' asks the angel. 'Call it a day', says God.",
+            "Two tramps walk past a church and start to read the gravestones. The first tramp says, 'Good grief - this bloke was 182!' 'Oh yeah?' says the other.'What was his name?' 'Miles from London.'",
+            "A bloke walks into work one day and says to a colleague, 'Do you like my new shirt - it's made out of the finest silk and got loads of cactuses over it.' 'Cacti', says the co-worker. 'Forget my tie', says the bloke. 'Look at my shirt!'",
+            "1110011010001011111?  010011010101100111011!",
+            "What did the plumber say when he wanted to divorce his wife? Sorry, but it's over, Flo!",
+            "Two crisps were walking down a road when a taxi pulled up alongside them and said 'Do you want a lift? One of the crisps replied, 'No thanks, we're Walkers!'",
+            "Man: (to friend) I'm taking my wife on an African Safari. Friend: Wow! What would you do if a vicious lion attacked your wife? Man: Nothing. Friend: Nothing? You wouldn't do anything? Man: Too right. I'd let the stupid lion fend for himself!",
+            "A wife was having a go at her husband. 'Look at Mr Barnes across the road', she moaned. 'Every morning when he goes to work, he kisses his wife goodbye. Why don't you do that?' 'Because I haven't been introduced to her yet', replied her old man.",
+            "'Where are you going on holiday?' John asked Trevor. 'We're off to Thailand this year', Trevor replied. 'Oh; aren't you worried that the very hot weather might disagree with your wife?' asked John. 'It wouldn't dare', said Trevor.",
+            "Two women were standing at a funeral. 'I blame myself for his death', said the wife. 'Why?' said her friend. 'Because I shot him', said the wife.",
+            "A woman goes into a clothes shop, 'Can I try that dress on in the window please?' she asks. 'I'm sorry madam', replies the shop assistant, 'but you'll have to use the changing-rooms like everyone else.'",
+            "Van Gogh goes into a pub and his mate asks him if he wants a drink. 'No thanks', said Vincent, 'I've got one ear.'",
+            "A pony walks into a pub. The publican says, 'What's the matter with you?' 'Oh it's nothing', says the pony. 'I'm just a little horse!'",
+            "A white horse walks into a bar, pulls up a stool, and orders a pint. The landlord pours him a tall frothy mug and say, 'You know, we have a drink named after you.' To which the white horse replies, 'What, Eric?'",
+            "Two drunk men sat in a pub. One says to the other, 'Does your watch tell the time?' 'The other replies, 'No, mate. You have to look at it.'",
+            "A man goes into a pub with a newt sitting on his shoulder. 'That's a nice newt', says the landlord, 'What's he called?' 'Tiny', replies the man. 'Why's that?' asks the landlord. 'Because he's my newt', says the man.",
+            "Doctor: I have some bad news and some very bad news. Patient: Well, you might as well give me the bad news first. Doctor: The lab called with your test results. They said you have 24 hours to live. Patient: 24 HOURS! That's terrible!! WHAT could be WORSE? What's the very bad news? Doctor: I've been trying to reach you since yesterday.",
+            "Two men are chatting in a pub one day. 'How did you get those scars on your nose?' said one. 'From glasses', said the other. 'Well why don't you try contact lenses?' asked the first. 'Because they don't hold as much beer', said the second.",
+            "A man went to the doctor, 'Look doc', he said, 'I can't stop my hands from shaking.' 'Do you drink much?' asked the doctor. 'No', replied the man, 'I spill most of it.'",
+            "Man goes to the doctor, 'Doctor, doctor. I keep seeing fish everywhere.' 'Have you seen an optician?' asks the doctor. 'Look I told you,' snapped the patient, 'It's fish that I see.'",
+            "After a car crash one of the drivers was lying injured on the pavement. 'Don't worry', said a policeman who's first on the scene,' a Red Cross nurse is coming.' 'Oh no', moaned the victim, 'Couldn't I have a blonde, cheerful one instead?'",
+            "A policeman walked over to a parked car and asked the driver if the car was licensed. 'Of course it is', said the driver. 'Great, I'll have a beer then', said the policeman.",
+            "A policeman stops a woman and asks for her licence. 'Madam', he says, 'It says here that you should be wearing glasses.' 'Well', replies the woman, 'I have contacts.' 'Listen, love', says the copper, 'I don't care who you know; You're nicked!'",
+            "A policeman stopped a motorist in the centre of town one evening. 'Would you mind blowing into this bag, sir?' asked the policeman. 'Why?' asked the driver. 'Because my chips are too hot', replied the policeman.",
+            "Whizzing round a sharp bend on a country road a motorist ran over a large dog. A distraught farmer's wife ran over to the dead animal. 'I'm so very sorry', said the driver, 'I'll replace him, of course.' 'Well, I don't know', said the farmer's wife, 'Are you any good at catching rats?'",
+            "Waiter, this coffee tastes like dirt! Yes sir, that's because it was ground this morning.",
+            "Waiter, what is this stuff? That's bean salad sir. I know what it's been, but what is it now?",
+            "Waiter: And how did you find your steak sir? Customer: I just flipped a chip over, and there it was!",
+            "A guy goes into a pet shop and asks for a wasp. The owner tells him they don't sell wasps, to which the man says, 'Well you've got one in the window.'",
+            "A man goes into a fish shop and says, 'I'd like a piece of cod, please.' Fishmonger says, 'It won't be long sir.' 'Well, it had better be fat then', replies the man.",
+            "Man: Doctor, I've just swallowed a pillow. Doctor: How do you feel? Man: A little down in the mouth.",
+            "Two goldfish are in a tank. One turns to the other and says, 'Do you know how to drive this thing?'",
+            "A tortoise goes to the police station to report being mugged by three snails. 'What happened?' says the policeman. 'I don't know', says the tortoise. 'It was all so quick.'",
+            "Little girl: Grandpa, can you make a sound like a frog? Grandpa: I suppose so sweetheart. Why do you want me to make a sound like a frog?' Little girl: Because Mum said that when you croak, we're going to Disneyland.",
+            "'Is your mother home?' the salesman asked a small boy sitting on the front step of a house. 'Yeah, she's home', the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, 'I thought you said your mother was home.' The kid replied, 'She is, but I don't live here.'",
+            "Mother: Why are you home from school so early? Son: I was the only one in the class who could answer a question. Mother: Oh, really? What was the question? Son: Who threw the rubber at the headmaster?",
+            "A man's credit card was stolen but he decided not to report it because the thief was spending less than his wife did.",
+            "A newly-wed couple had recently opened a joint bank account. 'Darling', said the man. 'The bank has returned that cheque you wrote last week.' 'Great', said the woman. 'What shall I spend it on next?'",
+            "A man goes into a fish and chip shop and orders fish and chips twice. The shop owner says, 'I heard you the first time.'",
+            "A tramp approached a well-dressed man. 'Ten pence for a cup of tea, Guv?' He asked. The man gave him the money and after for five minutes said, 'So where's my cup of tea then?'",
+            "A neutron walks into a pub. 'I'd like a beer', he says. The landlord promptly serves him a beer. 'How much will that be?' asks the neutron. 'For you?' replies the landlord, 'No charge.'",
+            "A woman goes to the doctor and says, 'Doctor, my husband limps because his left leg is an inch shorter than his right leg. What would you do in his case?' 'Probably limp, too', says the doc.",
+            "Three monks are meditating in the Himalayas. One year passes in silence, and one of them says to the other, 'Pretty cold up here isn't it?' Another year passes and the second monk says, 'You know, you are quite right.' Another year passes and the third monk says, 'Hey, I'm going to leave unless you two stop jabbering!'",
+            "A murderer, sitting in the electric chair, was about to be executed. 'Have you any last requests?' asked the prison guard. 'Yes', replied the murderer. 'Will you hold my hand?'",
+            "A highly excited man rang up for an ambulance. 'Quickly, come quickly', he shouted, 'My wife's about to have a baby.' 'Is this her first baby?' asked the operator. 'No, you fool', came the reply, 'It's her husband.'",
+            "A passer-by spots a fisherman by a river. 'Is this a good river for fish?' he asks. 'Yes', replies the fisherman, 'It must be. I can't get any of them to come out.'",
+            "A man went to visit a friend and was amazed to find him playing chess with his dog. He watched the game in astonishment for a while. 'I can hardly believe my eyes!' he exclaimed. 'That's the smartest dog I've ever seen.' His friend shook his head. 'Nah, he's not that bright. I beat him three games in five.'",
+            "A termite walks into a pub and says, 'Is the bar tender here?'",
+            "A skeleton walks into a pub one night and sits down on a stool. The landlord asks, 'What can I get you?' The skeleton says, 'I'll have a beer, thanks' The landlord passes him a beer and asks 'Anything else?' The skeleton nods. 'Yeah...a mop...'",
+            "A snake slithers into a pub and up to the bar. The landlord says, 'I'm sorry, but I can't serve you.' 'What? Why not?' asks the snake. 'Because', says the landlord, 'You can't hold your drink.'",
+            "Descartes walks into a pub. 'Would you like a beer sir?' asks the landlord politely. Descartes replies, 'I think not' and ping! he vanishes.",
+            "A cowboy walked into a bar, dressed entirely in paper. It wasn't long before he was arrested for rustling.",
+            "A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
+            "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'",
+            "How many existentialists does it take to change a light bulb?  Two. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.",
+            "A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as 'The Graders of the Flossed Quark...'",
+            "A truck carrying copies of Roget's Thesaurus overturned on the highway. The local newspaper reported that onlookers were 'stunned, overwhelmed, astonished, bewildered and dumbfounded.'",
+            "'My wife is really immature. It's pathetic. Every time I take a bath, she comes in and sinks all my little boats.'",
+            "'How much will it cost to have the tooth extracted?' asked the patient. '50 pounds', replied the dentist. '50 pounds for a few moments' work?!' asked the patient. 'The dentist smiled, and replied, 'Well, if you want better value for money, I can extract it very, very slowly...'",
+            "A doctor thoroughly examined his patient and said, 'Look I really can't find any reason for this mysterious affliction. It's probably due to drinking.' The patient sighed and snapped, 'In that case, I'll come back when you're damn well sober!'",
+            "Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces? Nurse: Still no change doctor.",
+            "Doctor: Did you take the patient's temperature nurse? Nurse: No doctor. Is it missing?",
+            "A depressed man turned to his friend in the pub and said, 'I woke up this morning and felt so bad that I tried to kill myself by taking 50 aspirin.' 'Oh man, that's really bad', said his friend, 'What happened?' The first man sighed and said, 'After the first two, I felt better.'",
+            "A famous blues musician died. His tombstone bore the inscription, 'Didn't wake up this morning...'",
+            "A businessman was interviewing a nervous young woman for a position in his company. He wanted to find out something about her personality, so he asked, 'If you could have a conversation with someone living or dead, who would it be?' The girl thought about the question: 'The living one', she replied.",
+            "Manager to interviewee: For this job we need someone who is responsible. Interviewee to Manager: I'm your man then - in my last job, whenever anything went wrong, I was responsible.",
+            "A businessman turned to a colleague and asked, 'So, how many people work at your office?' His friend shrugged and replied, 'Oh about half of them.'",
+            "'How long have I been working at that office? As a matter of fact, I've been working there ever since they threatened to sack me.'",
+            "In a courtroom, a mugger was on trial. The victim, asked if she recognised the defendant, said, 'Yes, that's him. I saw him clear as day. I'd remember his face anywhere.' Unable to contain himself, the defendant burst out with, 'She's lying! I was wearing a mask!'",
+            "As Sid sat down to a big plate of chips and gravy down the local pub, a mate of his came over and said, 'Here Sid, me old pal. I thought you were trying to get into shape? And here you are with a high-fat meal and a pint of stout!' Sid looked up and replied, 'I am getting into shape. The shape I've chosen is a sphere.'",
+            "Man in pub: How much do you charge for one single drop of whisky? Landlord: That would be free sir. Man in pub: Excellent. Drip me a glass full.",
+            "I once went to a Doctor Who restaurant. For starters I had Dalek bread.",
+            "A restaurant nearby had a sign in the window which said 'We serve breakfast at any time', so I ordered French toast in the Renaissance.",
+            "Why couldn't the rabbit get a loan?  Because he had burrowed too much already!",
+            "I phoned up the builder's yard yesterday. I said, 'Can I have a skip outside my house?'. The builder said, 'Sure. Do what you want. It's your house.'",
+            "What's the diference between a sock and a camera? A sock takes five toes and a camera takes four toes!",
+            "Woman on phone: I'd like to complain about these incontinence pants I bought from you! Shopkeeper: Certainly madam, where are you ringing from? Woman on phone: From the waist down!",
+            "Knock knock.",
+            "Two Oranges in a pub, one says to the other 'Your round.'.",
+            "Guy : 'Doc, I've got a cricket ball stuck up my backside.' Doc : 'How's that?' Guy : 'Don't you start...'",
+            "Two cows standing in a field. One turns to the other and says 'Moo!' The other one says 'Damn, I was just about to say that!'.",
+            "A vampire bat arrives back at the roost with his face full of blood. All the bats get excited and ask where he got it from. 'Follow me', he says and off they fly over hills, over rivers and into a dark forest. 'See that tree over there', he says.  'WELL I DIDN'T!!'.",
+            "A man goes into a bar and orders a pint. After a few minutes he hears a voice that says, 'Nice shoes'. He looks around but the whole bar is empty apart from the barman at the other end of the bar. A few minutes later he hears the voice again. This time it says, 'I like your shirt'. He beckons the barman over and tells him what's been happening to which the barman replies, 'Ah, that would be the nuts sir. They're complimentary'!",
+            "A man was siting in a restaurant waiting for his meal when a big king prawn comes flying across the room and hits him on the back of the head. He turns around and the waiter said, 'That's just for starters'.",
+            "Doctor! I have a serious problem, I can never remember what i just said. When did you first notice this problem? What problem?",
+            "Now, most dentist's chairs go up and down, don't they? The one I was in went back and forwards. I thought, 'This is unusual'. Then the dentist said to me, 'Mitsuku, get out of the filing cabinet'.",
+            "I was reading this book, 'The History of Glue'. I couldn't put it down.",
+            "The other day someone left a piece of plastacine in my bedroom. I didn't know what to make of it.",
+            "When I was at school people used to throw gold bars at me. I was the victim of bullion.",
+            "I was playing the piano in a bar and this elephant walked in and started crying his eyes out. I said 'Do you recognise the tune?' He said 'No, I recognise the ivory.'",
+            "I went in to a pet shop. I said, 'Can I buy a goldfish?' The guy said, 'Do you want an aquarium?' I said, 'I don't care what star sign it is.'",
+            "My mate Sid was a victim of I.D. theft. Now we just call him S.",
+            "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
+      ]
+      }
+]
+}
